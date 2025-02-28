@@ -1,0 +1,1482 @@
+{
+    "beers": [
+        {
+            "name": "Altbier",
+            "style": "German Ale",
+            "abv_range": { "min": 4.3, "max": 5.5 },
+            "ibu_range": { "min": 25, "max": 50 },
+            "og_range": { "min": 1.044, "max": 1.052 },
+            "fg_range": { "min": 1.008, "max": 1.014 },
+            "ingredients": {
+              "malts": [
+                { "name": "Munich Malt", "amount_per_liter": 0.25 },
+                { "name": "Pilsner Malt", "amount_per_liter": 0.15 }
+              ],
+              "hops": [
+                { "name": "Spalt", "amount_per_liter": 0.004, "timing": "60 min" },
+                { "name": "Hallertau", "amount_per_liter": 0.002, "timing": "15 min" }
+              ],
+              "yeast": "Wyeast 1007 German Ale",
+              "water_ratio": 4.0
+            },
+            "brewing_instructions": [
+              { "step": 1, "description": "Heat water to 66°C (151°F) for mash" },
+              { "step": 2, "description": "Mash for 60 minutes" },
+              { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+              { "step": 4, "description": "Cool to 18°C (64°F) and pitch yeast" },
+              { "step": 5, "description": "Ferment at 18°C (64°F) for 14 days" },
+              { "step": 6, "description": "Bottle and carbonate" }
+            ]
+          },
+          {
+      "name": "Amber Ale",
+      "style": "Ale",
+      "abv_range": { "min": 5.0, "max": 7.0 },
+      "ibu_range": { "min": 20, "max": 40 },
+      "og_range": { "min": 1.050, "max": 1.060 },
+      "fg_range": { "min": 1.010, "max": 1.014 },
+      "ingredients": {
+        "malts": [
+          { "name": "Amber Malt", "amount_per_liter": 0.25 },
+          { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+        ],
+        "hops": [
+          { "name": "Cascade", "amount_per_liter": 0.003, "timing": "60 min" },
+          { "name": "Centennial", "amount_per_liter": 0.002, "timing": "15 min" }
+        ],
+        "yeast": "Wyeast 1056 American Ale",
+        "water_ratio": 4.0
+      },
+      "brewing_instructions": [
+        { "step": 1, "description": "Heat water to 68°C (154°F) for mash" },
+        { "step": 2, "description": "Mash for 60 minutes" },
+        { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+        { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+        { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+        { "step": 6, "description": "Bottle and carbonate" }
+      ]
+    },
+    {
+        "name": "American Brown Ale",
+        "style": "Brown Ale",
+        "abv_range": { "min": 4.3, "max": 6.2 },
+        "ibu_range": { "min": 20, "max": 40 },
+        "og_range": { "min": 1.045, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.016 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.25 },
+            { "name": "Chocolate Malt", "amount_per_liter": 0.05 },
+            { "name": "Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Fuggles", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Safale US-05",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (153°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "American Pale Ale",
+        "style": "Pale Ale",
+        "abv_range": { "min": 4.5, "max": 6.2 },
+        "ibu_range": { "min": 30, "max": 45 },
+        "og_range": { "min": 1.045, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.25 },
+            { "name": "Crystal Malt", "amount_per_liter": 0.03 }
+          ],
+          "hops": [
+            { "name": "Cascade", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Amarillo", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Safale US-05",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "American Porter",
+        "style": "Porter",
+        "abv_range": { "min": 5.0, "max": 6.5 },
+        "ibu_range": { "min": 30, "max": 50 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.25 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 },
+            { "name": "Chocolate Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Cascade", "amount_per_liter": 0.004, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "American IPA",
+        "style": "IPA",
+        "abv_range": { "min": 5.0, "max": 7.5 },
+        "ibu_range": { "min": 40, "max": 70 },
+        "og_range": { "min": 1.060, "max": 1.070 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.25 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Cascade", "amount_per_liter": 0.005, "timing": "60 min" },
+            { "name": "Centennial", "amount_per_liter": 0.003, "timing": "15 min" }
+          ],
+          "yeast": "Safale US-05",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "American Wheat Beer",
+        "style": "Wheat Beer",
+        "abv_range": { "min": 4.0, "max": 5.5 },
+        "ibu_range": { "min": 15, "max": 30 },
+        "og_range": { "min": 1.045, "max": 1.055 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Wheat Malt", "amount_per_liter": 0.30 },
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 }
+          ],
+          "hops": [
+            { "name": "Cascade", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Amarillo", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Safale US-05",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 66°C (151°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 18°C (64°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 18°C (64°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Barleywine",
+        "style": "Ale",
+        "abv_range": { "min": 8.0, "max": 12.0 },
+        "ibu_range": { "min": 35, "max": 70 },
+        "og_range": { "min": 1.080, "max": 1.120 },
+        "fg_range": { "min": 1.020, "max": 1.030 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.40 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1098 British Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Belgian Tripel",
+        "style": "Tripel",
+        "abv_range": { "min": 8.0, "max": 12.0 },
+        "ibu_range": { "min": 25, "max": 40 },
+        "og_range": { "min": 1.070, "max": 1.080 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Sugar", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.004, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1214 Belgian Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 68°C (154°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 22°C (72°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Belgian Dubbel",
+        "style": "Belgian Ale",
+        "abv_range": { "min": 6.5, "max": 7.5 },
+        "ibu_range": { "min": 15, "max": 25 },
+        "og_range": { "min": 1.070, "max": 1.080 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.004, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1214 Belgian Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 68°C (154°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Belgian Blonde Ale",
+        "style": "Belgian Ale",
+        "abv_range": { "min": 6.0, "max": 7.5 },
+        "ibu_range": { "min": 20, "max": 30 },
+        "og_range": { "min": 1.060, "max": 1.070 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Munich Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.002, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1214 Belgian Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 68°C (154°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Berliner Weisse",
+        "style": "Sour Wheat Beer",
+        "abv_range": { "min": 2.8, "max": 3.8 },
+        "ibu_range": { "min": 3, "max": 8 },
+        "og_range": { "min": 1.028, "max": 1.032 },
+        "fg_range": { "min": 1.003, "max": 1.006 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pilsner Malt", "amount_per_liter": 0.15 },
+            { "name": "Wheat Malt", "amount_per_liter": 0.15 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.001, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1007 German Ale and Lactobacillus",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 65°C (149°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 15 minutes" },
+          { "step": 4, "description": "Cool to 35°C (95°F) and pitch Lactobacillus" },
+          { "step": 5, "description": "After 24-48 hours, boil again briefly and cool to 20°C (68°F)" },
+          { "step": 6, "description": "Pitch ale yeast and ferment for 7 days" }
+        ]
+      },
+      {
+        "name": "Bière de Garde",
+        "style": "French Ale",
+        "abv_range": { "min": 6.0, "max": 8.5 },
+        "ibu_range": { "min": 20, "max": 30 },
+        "og_range": { "min": 1.060, "max": 1.080 },
+        "fg_range": { "min": 1.008, "max": 1.016 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Munich Malt", "amount_per_liter": 0.05 },
+            { "name": "Vienna Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Strisselspalt", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Hallertau", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 3725 Bière de Garde",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 66°C (151°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Lager at 4°C (39°F) for 4-6 weeks" }
+        ]
+      },
+      {
+        "name": "Black IPA",
+        "style": "Black IPA",
+        "abv_range": { "min": 6.0, "max": 8.0 },
+        "ibu_range": { "min": 50, "max": 90 },
+        "og_range": { "min": 1.060, "max": 1.070 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Debittered Black Malt", "amount_per_liter": 0.03 },
+            { "name": "Crystal Malt", "amount_per_liter": 0.02 }
+          ],
+          "hops": [
+            { "name": "Magnum", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Centennial", "amount_per_liter": 0.003, "timing": "15 min" },
+            { "name": "Simcoe", "amount_per_liter": 0.003, "timing": "0 min" }
+          ],
+          "yeast": "Safale US-05",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Dry hop for 5 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Blonde Ale",
+        "style": "Ale",
+        "abv_range": { "min": 4.0, "max": 6.0 },
+        "ibu_range": { "min": 15, "max": 30 },
+        "og_range": { "min": 1.040, "max": 1.050 },
+        "fg_range": { "min": 1.008, "max": 1.012 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Cascade", "amount_per_liter": 0.003, "timing": "60 min" },
+            { "name": "Saaz", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (153°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Bohemian Pilsner",
+        "style": "Pilsner",
+        "abv_range": { "min": 4.2, "max": 5.4 },
+        "ibu_range": { "min": 35, "max": 45 },
+        "og_range": { "min": 1.044, "max": 1.056 },
+        "fg_range": { "min": 1.013, "max": 1.017 },
+        "ingredients": {
+          "malts": [
+            { "name": "Bohemian Pilsner Malt", "amount_per_liter": 0.30 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Saaz", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 2001 Urquell Lager",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 65°C (149°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 12°C (54°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 12°C (54°F) for 14 days" },
+          { "step": 6, "description": "Lager at 4°C (39°F) for 4-6 weeks" }
+        ]
+      },
+      {
+        "name": "Cream Ale",
+        "style": "Ale",
+        "abv_range": { "min": 4.0, "max": 5.5 },
+        "ibu_range": { "min": 10, "max": 20 },
+        "og_range": { "min": 1.045, "max": 1.055 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Corn", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Cascade", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (149°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Lager at 4°C (39°F) for 4-6 weeks" }
+        ]
+      },
+      {
+        "name": "Double IPA DIPA",
+        "style": "IPA",
+        "abv_range": { "min": 7.5, "max": 10.0 },
+        "ibu_range": { "min": 65, "max": 100 },
+        "og_range": { "min": 1.065, "max": 1.085 },
+        "fg_range": { "min": 1.010, "max": 1.018 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Crystal Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Centennial", "amount_per_liter": 0.003, "timing": "15 min" },
+            { "name": "Citra", "amount_per_liter": 0.005, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Dry hop for 5 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Dunkel",
+        "style": "Dark Lager",
+        "abv_range": { "min": 4.5, "max": 6.0 },
+        "ibu_range": { "min": 18, "max": 28 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Munich Malt", "amount_per_liter": 0.30 },
+            { "name": "Pilsner Malt", "amount_per_liter": 0.20 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 },
+            { "name": "Chocolate Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.004, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 2206 Bavarian Lager",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 10°C (50°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 10°C (50°F) for 14 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Dunkelweizen",
+        "style": "Wheat Beer",
+        "abv_range": { "min": 5.0, "max": 6.0 },
+        "ibu_range": { "min": 12, "max": 20 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Wheat Malt", "amount_per_liter": 0.40 },
+            { "name": "Munich Malt", "amount_per_liter": 0.20 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 3068 Weihenstephan Weizen",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "English Bitter",
+        "style": "Pale Ale",
+        "abv_range": { "min": 3.5, "max": 4.5 },
+        "ibu_range": { "min": 25, "max": 40 },
+        "og_range": { "min": 1.040, "max": 1.050 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Fuggle", "amount_per_liter": 0.003, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 1968 London ESB",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "English IPA",
+        "style": "IPA",
+        "abv_range": { "min": 5.5, "max": 7.5 },
+        "ibu_range": { "min": 40, "max": 60 },
+        "og_range": { "min": 1.060, "max": 1.070 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Fuggle", "amount_per_liter": 0.003, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 1968 London ESB",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "English Pale Ale",
+        "style": "Pale Ale",
+        "abv_range": { "min": 4.5, "max": 5.5 },
+        "ibu_range": { "min": 30, "max": 40 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.003, "timing": "15 min" },
+            { "name": "Fuggle", "amount_per_liter": 0.004, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1968 London ESB",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Farmhouse Ale",
+        "style": "Belgian Ale",
+        "abv_range": { "min": 5.0, "max": 6.5 },
+        "ibu_range": { "min": 20, "max": 30 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.005, "max": 1.010 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 },
+            { "name": "Wheat Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.003, "timing": "60 min" },
+            { "name": "East Kent Goldings", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 3726 Farmhouse Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 68°C (154°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Flanders Red Ale",
+        "style": "Sour Ale",
+        "abv_range": { "min": 6.0, "max": 8.0 },
+        "ibu_range": { "min": 15, "max": 30 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.020 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Munich Malt", "amount_per_liter": 0.10 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 3763 Roeselare Ale Blend",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 68°C (154°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 30 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "German Pilsner",
+        "style": "Pilsner",
+        "abv_range": { "min": 4.5, "max": 5.5 },
+        "ibu_range": { "min": 30, "max": 40 },
+        "og_range": { "min": 1.045, "max": 1.055 },
+        "fg_range": { "min": 1.010, "max": 1.012 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Hallertau", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 2124 Bohemian Pilsner",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 65°C (149°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 18°C (64°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 18°C (64°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Golden Ale",
+        "style": "Pale Ale",
+        "abv_range": { "min": 4.0, "max": 5.0 },
+        "ibu_range": { "min": 15, "max": 25 },
+        "og_range": { "min": 1.040, "max": 1.050 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Cascade", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Gose",
+        "style": "Sour Ale",
+        "abv_range": { "min": 4.0, "max": 5.0 },
+        "ibu_range": { "min": 8, "max": 16 },
+        "og_range": { "min": 1.040, "max": 1.050 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 },
+            { "name": "Wheat Malt", "amount_per_liter": 0.20 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.002, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Grisette",
+        "style": "Belgian Ale",
+        "abv_range": { "min": 4.0, "max": 5.0 },
+        "ibu_range": { "min": 20, "max": 30 },
+        "og_range": { "min": 1.040, "max": 1.050 },
+        "fg_range": { "min": 1.005, "max": 1.010 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 },
+            { "name": "Wheat Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.003, "timing": "60 min" },
+            { "name": "East Kent Goldings", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 3726 Farmhouse Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 68°C (154°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 18°C (64°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Hefeweizen",
+        "style": "Wheat Beer",
+        "abv_range": { "min": 4.5, "max": 5.5 },
+        "ibu_range": { "min": 10, "max": 20 },
+        "og_range": { "min": 1.045, "max": 1.055 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 },
+            { "name": "Wheat Malt", "amount_per_liter": 0.20 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.002, "timing": "60 min" }
+          ],
+          "spices": [
+          { "name": "Coriander", "amount_per_liter": 0.0015, "timing": "10 min" }
+          ],
+          "yeast": "Wyeast 3068 Weihenstephan Weizen",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Imperial Stout",
+        "style": "Stout",
+        "abv_range": { "min": 8.0, "max": 12.0 },
+        "ibu_range": { "min": 50, "max": 80 },
+        "og_range": { "min": 1.080, "max": 1.100 },
+        "fg_range": { "min": 1.020, "max": 1.030 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.35 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.10 },
+            { "name": "Chocolate Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Fuggle", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "East Kent Goldings", "amount_per_liter": 0.003, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 1084 Irish Ale",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Kölsch",
+        "style": "Ale",
+        "abv_range": { "min": 4.0, "max": 5.0 },
+        "ibu_range": { "min": 20, "max": 30 },
+        "og_range": { "min": 1.040, "max": 1.050 },
+        "fg_range": { "min": 1.008, "max": 1.012 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.003, "timing": "60 min" },
+            { "name": "Saaz", "amount_per_liter": 0.002, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 2565 Kölsch",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 65°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 18°C (64°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 18°C (64°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Imperial IPA",
+        "style": "IPA",
+        "abv_range": { "min": 7.5, "max": 10.0 },
+        "ibu_range": { "min": 60, "max": 100 },
+        "og_range": { "min": 1.070, "max": 1.090 },
+        "fg_range": { "min": 1.010, "max": 1.016 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.10 },
+            { "name": "Munich Malt", "amount_per_liter": 0.05 },
+            { "name": "Wheat Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Columbus", "amount_per_liter": 0.003, "timing": "60 min" },
+            { "name": "Amarillo", "amount_per_liter": 0.002, "timing": "15 min" },
+            { "name": "Simcoe", "amount_per_liter": 0.002, "timing": "0 min" },
+            { "name": "Cascade", "amount_per_liter": 0.002, "timing": "Dry Hop" }
+
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Irish Stout",
+        "style": "Stout",
+        "abv_range": { "min": 4.0, "max": 5.0 },
+        "ibu_range": { "min": 35, "max": 45 },
+        "og_range": { "min": 1.040, "max": 1.050 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Roasted Barley", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1084 Irish Ale",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 65°C (149°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Lambic",
+        "style": "Belgian Ale",
+        "abv_range": { "min": 5.0, "max": 6.5 },
+        "ibu_range": { "min": 15, "max": 30 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.005, "max": 1.010 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Wheat", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.004, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 3278 Belgian Lambic",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 68°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 18°C (64°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 18°C (64°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Märzen",
+        "style": "Lager",
+        "abv_range": { "min": 5.0, "max": 6.0 },
+        "ibu_range": { "min": 18, "max": 30 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 },
+            { "name": "Munich Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.003, "timing": "60 min" },
+            { "name": "Saaz", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 1084 Irish Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 10°C (50°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 10°C (50°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Milk Stout",
+        "style": "Stout",
+        "abv_range": { "min": 4.0, "max": 6.0 },
+        "ibu_range": { "min": 25, "max": 40 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.25 },
+            { "name": "Lactose", "amount_per_liter": 0.10 },
+            { "name": "Chocolate Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Fuggle", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1084 Irish Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 10 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Mild Ale",
+        "style": "Ale",
+        "abv_range": { "min": 3.0, "max": 4.0 },
+        "ibu_range": { "min": 10, "max": 20 },
+        "og_range": { "min": 1.035, "max": 1.045 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.002, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1098 British Ale",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 10 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Munich Helles",
+        "style": "Lager",
+        "abv_range": { "min": 4.5, "max": 5.5 },
+        "ibu_range": { "min": 15, "max": 25 },
+        "og_range": { "min": 1.045, "max": 1.055 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Saflager W-34/70",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 10°C (50°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 10°C (50°F) for 10 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "New England IPA NEIPA",
+        "style": "IPA",
+        "abv_range": { "min": 6.5, "max": 8.5 },
+        "ibu_range": { "min": 40, "max": 60 },
+        "og_range": { "min": 1.060, "max": 1.070 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Oats", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Citra", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Mosaic", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 10 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Oatmeal Stout",
+        "style": "Stout",
+        "abv_range": { "min": 4.0, "max": 6.0 },
+        "ibu_range": { "min": 30, "max": 40 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.016 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.25 },
+            { "name": "Oats", "amount_per_liter": 0.10 },
+            { "name": "Chocolate Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Fuggle", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "East Kent Goldings", "amount_per_liter": 0.002, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 1084 Irish Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Porter",
+        "style": "Ale",
+        "abv_range": { "min": 4.0, "max": 6.0 },
+        "ibu_range": { "min": 25, "max": 45 },
+        "og_range": { "min": 1.045, "max": 1.055 },
+        "fg_range": { "min": 1.010, "max": 1.016 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.25 },
+            { "name": "Chocolate Malt", "amount_per_liter": 0.05 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1098 British Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Pumpkin Ale",
+        "style": "Specialty Beer",
+        "abv_range": { "min": 5.0, "max": 7.0 },
+        "ibu_range": { "min": 10, "max": 20 },
+        "og_range": { "min": 1.020, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.016 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Munich Malt", "amount_per_liter": 0.10 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 },
+            { "name": "Special Roast", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "spices": [
+            { "name": "Cinnamon", "amount_per_liter": 0.001, "timing": "15 min" },
+            { "name": "Nutmeg", "amount_per_liter": 0.001, "timing": "15 min" },
+            { "name": "Cloves", "amount_per_liter": 0.0005, "timing": "15 min" },
+            { "name": "Ginger", "amount_per_liter": 0.0005, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 1098 British Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 68°C (154°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 18°C (64°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Rauchbier",
+        "style": "Lager",
+        "abv_range": { "min": 4.0, "max": 6.0 },
+        "ibu_range": { "min": 20, "max": 30 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Smoked Malt", "amount_per_liter": 0.20 },
+            { "name": "Pale Malt", "amount_per_liter": 0.30 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 2007 Pilsen Lager",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 65°C (149°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 10°C (50°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 10°C (50°F) for 10 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Russian Imperial Stout",
+        "style": "Stour",
+        "abv_range": { "min": 8.0, "max": 12.0 },
+        "ibu_range": { "min": 50, "max": 80 },
+        "og_range": { "min": 1.080, "max": 1.100 },
+        "fg_range": { "min": 1.020, "max": 1.030 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.40 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.10 },
+            { "name": "Chocolate Malt", "amount_per_liter": 0.15 },
+            { "name": "Black Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.004, "timing": "60 min" },
+            { "name": "Fuggle", "amount_per_liter": 0.003, "timing": "15 min" }
+          ],
+          "yeast": "Wyeast 1084 Irish Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 70°C (158°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 10 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Saison",
+        "style": "Belgian Ale",
+        "abv_range": { "min": 5.5, "max": 7.5 },
+        "ibu_range": { "min": 25, "max": 40 },
+        "og_range": { "min": 1.050, "max": 1.060 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.30 },
+            { "name": "Wheat", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 3711 French Saison",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 65°C (149°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to the schedule" },
+          { "step": 4, "description": "Cool to 18°C (64°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 18°C (64°F) for 10 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Session IPA",
+        "style": "IPA",
+        "abv_range": { "min": 3.5, "max": 5.0 },
+        "ibu_range": { "min": 40, "max": 55 },
+        "og_range": { "min": 1.040, "max": 1.052 },
+        "fg_range": { "min": 1.008, "max": 1.012 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.20 },
+            { "name": "Vienna Malt", "amount_per_liter": 0.02 }
+          ],
+          "hops": [
+            { "name": "Magnum", "amount_per_liter": 0.003, "timing": "60 min" },
+            { "name": "Citra", "amount_per_liter": 0.003, "timing": "15 min" },
+            { "name": "Mosaic", "amount_per_liter": 0.003, "timing": "0 min" }
+          ],
+          "yeast": "Safale US-05",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 10 days" },
+          { "step": 6, "description": "Dry hop for 3 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Scotch Ale",
+        "style": "Ale",
+        "abv_range": { "min": 6.5, "max": 8.0 },
+        "ibu_range": { "min": 15, "max": 30 },
+        "og_range": { "min": 1.070, "max": 1.090 },
+        "fg_range": { "min": 1.020, "max": 1.030 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.35 },
+            { "name": "Munich Malt", "amount_per_liter": 0.10 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.15 }
+          ],
+          "hops": [
+            { "name": "East Kent Goldings", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 1098 British Ale",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Vienna Lager",
+        "style": "Lager",
+        "abv_range": { "min": 4.5, "max": 5.5 },
+        "ibu_range": { "min": 18, "max": 30 },
+        "og_range": { "min": 1.045, "max": 1.055 },
+        "fg_range": { "min": 1.010, "max": 1.015 },
+        "ingredients": {
+          "malts": [
+            { "name": "Vienna Malt", "amount_per_liter": 0.30 },
+            { "name": "Pilsner Malt", "amount_per_liter": 0.20 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Saflager W-34/70",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 10°C (50°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 10°C (50°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Weizenbock",
+        "style": "Wheat Beer",
+        "abv_range": { "min": 6.5, "max": 8.0 },
+        "ibu_range": { "min": 15, "max": 25 },
+        "og_range": { "min": 1.060, "max": 1.070 },
+        "fg_range": { "min": 1.010, "max": 1.016 },
+        "ingredients": {
+          "malts": [
+            { "name": "Wheat Malt", "amount_per_liter": 0.40 },
+            { "name": "Pilsner Malt", "amount_per_liter": 0.20 },
+            { "name": "Munich Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Hallertau", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "yeast": "Wyeast 3068 Weihenstephan Weizen",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 90 minutes" },
+          { "step": 3, "description": "Bring to a boil for 90 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "West Coast IPA",
+        "style": "IPA",
+        "abv_range": { "min": 6.0, "max": 7.5 },
+        "ibu_range": { "min": 50, "max": 70 },
+        "og_range": { "min": 1.060, "max": 1.075 },
+        "fg_range": { "min": 1.010, "max": 1.018 },
+        "ingredients": {
+          "malts": [
+            { "name": "Pale Malt", "amount_per_liter": 0.40 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.05 },
+            { "name": "Munich Malt", "amount_per_liter": 0.0025 },
+            { "name": "Wheat Malt", "amount_per_liter": 0.0025 }
+          ],
+          "hops": [
+            { "name": "Columbus", "amount_per_liter": 0.002, "timing": "60 min" },
+            { "name": "Cascade", "amount_per_liter": 0.001, "timing": "15 min" },
+            { "name": "Centennial", "amount_per_liter": 0.001, "timing": "15 min" },
+            { "name": "Amarillo", "amount_per_liter": 0.001, "timing": "0 min" },
+            { "name": "Cascade", "amount_per_liter": 0.002, "timing": "Dry Hop" }
+          ],
+          "yeast": "Wyeast 1056 American Ale",
+          "water_ratio": 4.0
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Dry hop for 5-7 days" },
+          { "step": 7, "description": "Bottle and carbonate" }
+        ]
+      },
+      {
+        "name": "Witbier",
+        "style": "Wheat Beer",
+        "abv_range": { "min": 4.5, "max": 5.5 },
+        "ibu_range": { "min": 10, "max": 20 },
+        "og_range": { "min": 1.045, "max": 1.055 },
+        "fg_range": { "min": 1.010, "max": 1.014 },
+        "ingredients": {
+          "malts": [
+            { "name": "Whear Malt", "amount_per_liter": 0.50 },
+            { "name": "Pilsner Malt", "amount_per_liter": 0.30 },
+            { "name": "Caramel/Crystal Malt", "amount_per_liter": 0.10 },
+            { "name": "Munich Malt", "amount_per_liter": 0.10 }
+          ],
+          "hops": [
+            { "name": "Saaz", "amount_per_liter": 0.003, "timing": "60 min" }
+          ],
+          "spices": [
+          { "name": "Coriander", "amount_per_liter": 0.0015, "timing": "10 min" },
+          { "name": "Orange Peel", "amount_per_liter": 0.0010, "timing": "10 min" }
+          ],
+          "yeast": "Wyeast 3944 Belgian Witbier",
+          "water_ratio": 4.5
+        },
+        "brewing_instructions": [
+          { "step": 1, "description": "Heat water to 67°C (152°F) for mash" },
+          { "step": 2, "description": "Mash for 60 minutes" },
+          { "step": 3, "description": "Bring to a boil for 60 minutes, adding hops according to schedule" },
+          { "step": 4, "description": "Cool to 20°C (68°F) and pitch yeast" },
+          { "step": 5, "description": "Ferment at 20°C (68°F) for 14 days" },
+          { "step": 6, "description": "Bottle and carbonate" }
+        ]
+      }
+    ]
+  }
